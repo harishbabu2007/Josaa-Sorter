@@ -100,7 +100,6 @@ function App() {
     );
 
     localStorage.setItem("college_data", JSON.stringify(newList));
-    console.log(newList);
     setReload(!reload);
   }
 
